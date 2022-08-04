@@ -62,7 +62,7 @@ function playRound() {
 }
 
 function game(_nRounds) {
-  console.clear()
+  console.clear();
 
   for (let i = 0; i < _nRounds; i++) {
     playRound();
