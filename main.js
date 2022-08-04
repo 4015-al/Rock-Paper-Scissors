@@ -62,6 +62,8 @@ function playRound() {
 }
 
 function game(_nRounds) {
+  console.clear()
+
   for (let i = 0; i < _nRounds; i++) {
     playRound();
   }
@@ -76,4 +78,4 @@ function game(_nRounds) {
   console.info(`Final Score: ${player} ${playerScore} vs ${computerScore} 🤖`);
 }
 
-game(3);
+// game(3);
